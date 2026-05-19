@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sueldo</title>
+    <link rel="stylesheet" href="../styles/styleproblemas.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="../index.html">Inicio</a>
+    </div>
+
+    <div class="titulo">
+        <h2>Sueldo semanal de un trabajador</h2>
+    </div>
+
+    <div class="banner">
+        <div class="contenido-banner">
+
+            <div class="resultado">
+                <label for="hours">Horas trabajadas:</label>
+                <input type="text" id="hours" name="hours"><br>
+
+                <label for="rate">Pago por hora:</label>
+                <input type="text" id="rate" name="rate"><br>
+
+                <button onclick="calcular()">Calcular</button><br>
+            </div>
+
+            <p id="result"></p>
+
+        </div>
+    </div>
+
+    <img src="../images/problema12.png" class="img-laimagen">
+
+    <script src="../scripts/problema12.js" defer></script>
+</body>
+</html>

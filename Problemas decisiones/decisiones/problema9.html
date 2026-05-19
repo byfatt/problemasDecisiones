@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compañia de seguros</title>
+    <link rel="stylesheet" href="../styles/styleproblemas.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="../index.html">Inicio</a>
+    </div>
+
+    <div class="titulo">
+        <h2>Tipo de póliza: cobertura amplia (A) o daños a terceros (B)</h2>
+    </div>
+
+    <div class="banner">
+        <div class="contenido-banner">
+
+           <div class="resultado-poliza">
+
+                <label for="policy">Tipo de póliza (A o B):</label>
+                <input type="text" id="policy" name="policy">
+
+                <label for="age">Edad del conductor:</label>
+                <input type="text" id="age" name="age">
+
+                <label for="alcohol">¿Consume alcohol? (si / no):</label>
+                <input type="text" id="alcohol">
+
+                <label for="glasses">¿Usa lentes? (si / no):</label>
+                <input type="text" id="glasses">
+
+                <label for="illness">¿Tiene enfermedad? (si / no):</label>
+                <input type="text" id="illness">
+
+                <button onclick="calcular()">Calcular</button>
+            </div>
+
+            <p id="result"></p>
+
+        </div>
+    </div>
+
+    <img src="../images/problema9.png" class="img-laimagen">
+
+    <script src="../scripts/problema9.js" defer></script>
+</body>
+</html>
